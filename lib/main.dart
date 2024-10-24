@@ -43,12 +43,12 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Unit 5 Calculator"),
+        title: const Text("Unit 5: Calculator"),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          // Addition Row
+          // Addition 
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
@@ -85,24 +85,11 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                   });
                 },
               ),
-              // Clear Button
-              // TextButton(
-              //   onPressed: () {
-              //     setState(() {
-              //       // Clear the TextFields and reset sums
-              //       add1Controller.clear();
-              //       add2Controller.clear();
-              //       firstAddNum = 0;
-              //       secondAddNum = 0;
-              //       sum = 0;
-              //     });
-              //   },
-              //   child: const Text("Clear"),
-              // ),
+              
             ],
           ),
 
-          // Subtract Row
+          // Subtract 
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
@@ -139,24 +126,11 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                   });
                 },
               ),
-              // Clear Button
-              // TextButton(
-              //   onPressed: () {
-              //     setState(() {
-              //       // Clear the TextFields and reset sums
-              //       add1Controller.clear();
-              //       add2Controller.clear();
-              //       firstAddNum = 0;
-              //       secondAddNum = 0;
-              //       difference = 0;
-              //     });
-              //   },
-              //   child: const Text("Clear"),
-              // ),
+             
             ],
           ),
 
-          // Multiplication Row
+          // Multiplication 
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
@@ -193,24 +167,11 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                   });
                 },
               ),
-              // Clear Button
-              // TextButton(
-              //   onPressed: () {
-              //     setState(() {
-              //       // Clear the TextFields and reset sums
-              //       add1Controller.clear();
-              //       add2Controller.clear();
-              //       firstAddNum = 0;
-              //       secondAddNum = 0;
-              //       product = 0;
-              //     });
-              //   },
-              //   child: const Text("Clear"),
-              // ),
+              
             ],
           ),
 
-          // Division Row
+          // Division 
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
@@ -254,7 +215,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
               TextButton(
                 onPressed: () {
                   setState(() {
-                    // Clear the TextFields and reset sums
+                    // Clear the TextFields and reset 
                     add1Controller.clear();
                     add2Controller.clear();
                     firstAddNum = 0;
